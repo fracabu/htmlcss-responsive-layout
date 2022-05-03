@@ -31,8 +31,19 @@
     height: 60px;
     background-color:#0084FD;
     text-align: center;
+    
 }
 
+.btn{
+    border-radius: 10px;
+    border: none;
+    padding: 4px;
+}
+
+.link-navbar{
+    text-decoration: none;
+    color: white;
+}
 
 .section{
     padding-top: 2rem;
