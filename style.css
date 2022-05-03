@@ -21,24 +21,19 @@
     padding-bottom: 2rem;
 }
 
-.box-navbar{
-    position: relative;
-    
+.fixed-header{
+    width: 100%;
+    position: fixed; 
+    top: 0; 
 
 }
 .navbar{
     height: 60px;
     background-color:#0084FD;
-    display: flex;
+    text-align: center;
+}
 
-}
-.none{
-    list-style: none;
-}
-.menu-navabr{
-    list-style: none;
-    
-}
+
 .section{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -101,10 +96,15 @@
         width: 748px;
     }
     .col-lg-half{
-        flex-basis: 50%;
-        
+        flex-basis: 50%; 
     }
+    .col-lg-full{
+        flex-basis: 100%; 
+    }
+
+
 }
+
 
 @media screen and (max-width: 768px){
     .container{
@@ -112,8 +112,13 @@
     }
     .col-md-half{
         flex-basis: 50%;
-        
     }
+
+    .col-md-full{
+        flex-basis: 100%;
+    }
+
+
 }
 
 @media screen and (max-width: 576px){
